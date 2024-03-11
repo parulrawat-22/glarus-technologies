@@ -1,0 +1,36 @@
+.homepage_header_footer_container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.homepage_data {
+  height: 100vh;
+}
+
+.homepage_about {
+  text-align: center;
+  padding: 5vh 10vw;
+  margin-top: 2vh;
+}
+
+.homepage_about p {
+  margin-top: 4vh;
+}
+
+.homepage_services {
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  padding: 5vh 10vw;
+  padding-bottom: 10vh;
+}
+
+.homepage_card_flex {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
